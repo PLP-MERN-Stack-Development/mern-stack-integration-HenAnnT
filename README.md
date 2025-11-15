@@ -19,11 +19,24 @@ mern-blog/
 │   ├── public/             # Static files
 │   ├── src/                # React source code
 │   │   ├── components/     # Reusable components
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── PostCard.jsx
+│   │   │   └── CommentList.jsx
 │   │   ├── pages/          # Page components
+│   │   │   ├── Home.jsx
+│   │   │   ├── PostView.jsx
+│   │   │   ├── PostForm.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
 │   │   ├── hooks/          # Custom React hooks
+│   │   │   └── usePosts.jsx
 │   │   ├── services/       # API services
+│   │   │   └── api.js
 │   │   ├── context/        # React context providers
+│   │   │   └── AuthContext.jsx
 │   │   └── App.jsx         # Main application component
+│   │   ├── main.jsx
+│   │   └── index.css
 │   └── package.json        # Client dependencies
 ├── server/                 # Express.js back-end
 │   ├── config/             # Configuration files
